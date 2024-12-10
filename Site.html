@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стиль в одязі</title>
+    <style>
+        /* Основні стилі */
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Заголовок */
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+
+        /* Навігація */
+        nav {
+            background-color: #222;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
+        }
+
+        /* Основний контент */
+        .content {
+            padding: 40px 20px;
+        }
+
+        .content h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #4CAF50;
+        }
+
+        .section {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .section div {
+            width: 30%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .section div:hover {
+            transform: scale(1.05);
+        }
+
+        .section img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .section h3 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-top: 15px;
+        }
+
+        .section p {
+            font-size: 1rem;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        /* Футер */
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Заголовок -->
+    <header>
+        <h1>Стиль в одязі</h1>
+        <p>Будь у тренді. Визнач свій стиль!</p>
+    </header>
+
+    <!-- Навігація -->
+    <nav>
+        <a href="#">Головна</a>
+        <a href="#">Модні Тренди</a>
+        <a href="#">Поради</a>
+        <a href="#">Стилі</a>
+        <a href="#">Контакти</a>
+    </nav>
+
+    <!-- Основний контент -->
+    <div class="content">
+        <h2>Сучасні стилі в моді</h2>
+        <div class="section">
+            <div>
+                <img src="https://source.unsplash.com/600x400/?fashion,casual" alt="Casual стиль">
+                <h3>Casual стиль</h3>
+                <p>Casual стиль — це поєднання комфорту та стилю. Ідеально для повсякденного життя, коли хочеться виглядати елегантно без зайвих зусиль.</p>
+            </div>
+
+            <div>
+                <img src="https://source.unsplash.com/600x400/?fashion,formal" alt="Formal стиль">
+                <h3>Formal стиль</h3>
+                <p>Для особливих випадків або офіційних зустрічей. Елегантність, строгість і класика — основні риси формального стилю.</p>
+            </div>
+
+            <div>
+                <img src="https://source.unsplash.com/600x400/?fashion,sport" alt="Sport стиль">
+                <h3>Sport стиль</h3>
+                <p>Спортивний стиль відомий своєю практичністю та зручністю. Завдяки своєму сучасному вигляду він також є популярним для міських прогулянок.</p>
+            </div>
+        </div>
+
+        <h2>Як створити свій унікальний стиль</h2>
+        <div class="section">
+            <div>
+                <img src="https://source.unsplash.com/600x400/?fashion,accessories" alt="Аксесуари">
+                <h3>Аксесуари</h3>
+                <p>Аксесуари можуть змінити будь-який образ. Вибір правильних аксесуарів доповнить ваш стиль і зробить його неповторним.</p>
+            </div>
+
+            <div>
+                <img src="https://source.unsplash.com/600x400/?fashion,shoes" alt="Взуття">
+                <h3>Взуття</h3>
+                <p>Вибір взуття є важливим елементом стилю. Від класичних туфель до стильних кросівок — кожен тип взуття додає індивідуальність.</p>
+            </div>
+
+            <div>
+                <img src="https://source.unsplash.com/600x400/?fashion,colors" alt="Колір у моді">
+                <h3>Колір у моді</h3>
+                <p>Колір може визначити настрій вашого образу. Яскраві кольори надають енергії, а спокійні відтінки дарують елегантність і гармонію.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Футер -->
+    <footer>
+        <p>&copy; 2024 Стиль в одязі | Усі права захищені</p>
+    </footer>
+</body>
+</html>
